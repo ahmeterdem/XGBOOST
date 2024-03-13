@@ -24,7 +24,7 @@ public class TransformToLibsvm {
                         libsvmRow[j[0]] = (field.get(row).toString());
                     }
                     else {
-                        libsvmRow[j[0]] = j[0] + ":" + field.get(row).toString().replace('.',',');
+                        libsvmRow[j[0]] = j[0] + ":" + field.get(row).toString();
                     }
 
                     j[0]++;
